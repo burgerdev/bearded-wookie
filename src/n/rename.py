@@ -2,6 +2,11 @@
 
 def rename(mp3_list_file):
     '''
-    This function takes a file name and returns nothing
+    This function takes a file name (str object)  and
+      * does bla
+      * does bli
+      * does blub
+      ...
     '''
-    f = open("blbblbl"+mp3_list_file)
+    
+    # here belongs your implementation
