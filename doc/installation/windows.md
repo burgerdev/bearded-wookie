@@ -1,7 +1,7 @@
 Installation
 ============
 
-You can download the latest version at the [python website](http://www.python.org/download/releases/3.3.2/). Be sure to choose the right version (32 or 64 bit) for your system. [Windows 8]((http://pcsupport.about.com/od/windows-8/a/windows-8-64-bit-32-bit.htm)), [Windows 7](http://windows.microsoft.com/de-DE/Windows7/32-bit-and-64-bit-Windows-frequently-asked-questions). 
+You can download the latest version at the [python website](http://www.python.org/download/releases/3.3.2/). Scroll down to the MSI installer files. Be sure to choose the right version: x86 for a 32bit windows, x86-64 for a 64bit windows.  Which version am I running? See [Windows 8](http://pcsupport.about.com/od/windows-8/a/windows-8-64-bit-32-bit.htm), [Windows 7, Vista, XP](http://windows.microsoft.com/de-DE/Windows7/32-bit-and-64-bit-Windows-frequently-asked-questions). After installation, you can start IDLE from the start menu / start screen.
 
 Integrated Development Environment
 ==================================
