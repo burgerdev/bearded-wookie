@@ -1,7 +1,7 @@
 Installation
 ============
 
-You can download the latest version at the [python website](http://www.python.org/download/releases/3.3.2/). Be sure to choose the right version (32 or 64 bit) for your system. 
+You can download the latest version at the [python website](http://www.python.org/download/releases/3.3.2/). Be sure to choose the right version (32 or 64 bit) for your system. [Windows 8]((http://pcsupport.about.com/od/windows-8/a/windows-8-64-bit-32-bit.htm)), [Windows 7](http://windows.microsoft.com/de-DE/Windows7/32-bit-and-64-bit-Windows-frequently-asked-questions). 
 
 Integrated Development Environment
 ==================================
