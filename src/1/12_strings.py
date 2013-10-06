@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+# -*- coding:utf-8 -*-
+# Author: Markus Döring
+
 
 # String Manipulation
 # ===================
@@ -9,7 +12,8 @@
 # However, you can use string methods to create a new string
 # that is changed in the way you like. 
 #
-# You can find much information in the [documentation](http://docs.python.org/2/library/stdtypes.html#string-methods)
+# You can find much information in the 
+# [documentation](http://docs.python.org/2/library/stdtypes.html#string-methods)
 
 
 # Strings (sequences of characters) are defined by putting
@@ -26,7 +30,8 @@
 # >>> print(greeting)
 # Hello World!
 
-# even multi-line strings are allowed with triple-quotation
+# even multi-line strings are allowed with triple-quotation (multi-line strings
+# can also be used as code comments)
 # >>> longstring = """Hello,
 # World!"""
 # >>> print(longstring)
@@ -74,36 +79,51 @@
 # Try to fill in your own code at the [CODE] markers. 
 
 
-###################################################################
-# a) try replacing `damn` with `***` (no need to count characters!)
+###############################################################################
+# a) Try replacing `damn` with `***` (no need to count characters!), store your
+#    result in a variable `ratedPG`.
 
 insult = "You are a damn fool!"
 
-ratedPG = insult #[CODE]
+ratedPG = ""  # [CODE]
 
 print("a)")
 print(insult + " -> " + ratedPG)
 print("")
 
 
-#####################################################
-# b) remove all leading and trailing space characters
+###############################################################################
+# b) Remove all leading and trailing whitespace characters, store your result
+#    in a variable `accepted`.
 
 challenge = """
 
 
-           Good luck removing all the whitespace I posted. HAHA!
-	   
+   Good luck removing all the whitespace I posted. HAHA!
+
 
 """
 
-accepted = challenge #[CODE]
+accepted = ""  # [CODE]
 
 print("b)")
 print("Challenge accepted: {}".format(accepted))
 print("")
 
 
-####################################
-# c) bla
+###############################################################################
+# c) Join a given list of strings together, seperated by the string `"; "`.
+#    Don't do it manually (`lst[0] + "; " + list[1] + ` ...)!
+#    Hint: Try to find out the mechanics of str.join().
+
+lst = ["Apples", "Oranges", "Eggplants"]
+
+joined = ""  # [CODE]
+
+print("b)")
+print("Joined list: {}".format(joined))
+print("")
+
+
+
 
