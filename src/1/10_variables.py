@@ -3,6 +3,12 @@
 # Author: Markus Döring
 
 
+# You can run this program
+#   - in IDLE, by hitting F5 (or selecting Run->Run Module)
+#   - in the console, by typing `python 10_variables.py` (Mac/Linux)
+#     (make sure that you are in the right directory)
+
+
 # Basics
 # ======
 
@@ -110,11 +116,6 @@ sys.exit(0)
 # Try to assign the number `4` to the variable `a`, the
 # number `5` to the variable `b` and to assign the sum
 # of both `a` and `b` to the variable `c`. Print `c`.
-#
-# You can run this program
-#   - in IDLE, by hitting F5 (or selecting Run->Run Module)
-#   - in the console, by typing `python 10_variables.py` (Mac/Linux)
-#     (make sure that you are in the right directory)
 
 
 #[CODE]

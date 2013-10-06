@@ -17,3 +17,5 @@
 # integer vs. float calculations (10)
 
 # dict, set (11)
+
+# error handling (20)

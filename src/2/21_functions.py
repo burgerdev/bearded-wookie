@@ -3,18 +3,13 @@
 # Author: Markus Döring
 
 
-# Function Definition
-# ===================
-#
-
-
 # Excercises
 # ==========
 #
 # Try to fill in your own code at the [CODE] markers.
 
 
-###################################################################
+###############################################################################
 # a) A function and its usage
 
 def power(x, n):
@@ -39,7 +34,7 @@ print("a)")
 print("")
 
 
-###############################
+###############################################################################
 # b) My first function
 
 # Implement the `n!` function:
