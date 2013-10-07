@@ -28,7 +28,7 @@
 
 insult = "You are a damn fool!"
 
-ratedPG = ""  # [CODE]
+ratedPG = insult.replace('damn', '***')
 
 print("a)")
 print(insult + " -> " + ratedPG)
@@ -47,7 +47,7 @@ challenge = """
 
 """
 
-accepted = ""  # [CODE]
+accepted = challenge.strip()
 
 print("b)")
 print("Challenge accepted: {}".format(accepted))
@@ -61,7 +61,7 @@ print("")
 
 lst = ["Apples", "Oranges", "Eggplants"]
 
-joined = ""  # [CODE]
+joined = "; ".join(lst)
 
 print("c)")
 print("Joined list: {}".format(joined))

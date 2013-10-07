@@ -26,7 +26,10 @@
 print("a)")
 print("Variable c is now:")
 
-#[CODE]
+a = 4
+b = 5
+c = a + b
+print(c)
 
 print("")
 
@@ -50,9 +53,15 @@ print("")
 #         character. To include the last character in your selection, you might
 #         need to use `len(s)`.
 
+email = "test@example.de"
+
 print("b)")
 
-#[CODE]
+containsAt = '@' in email
+isGermanTLD = email[-2:len(email)] == "de"
+
+print(containsAt)
+print(isGermanTLD)
 
 print("")
 
@@ -69,13 +78,13 @@ myTuple = (4, 15, "Hello", 3.0, ("tuple in a tuple", 17), "foo")
 print("c)")
 
 print("The third element of tuple `myTuple` is:")
-#[CODE]
+print(myTuple[2])
 
 print("The subtuple from index 3 to index 5 (including 5!) is:")
-#[CODE]
+print(myTuple[3:6])
 
 print("The last two elements of the tuple are:")
-#[CODE]
+print(myTuple[-2:len(myTuple)])
 
 
 

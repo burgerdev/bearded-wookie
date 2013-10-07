@@ -23,13 +23,14 @@ def power(x, n):
     y = 1
     for i in range(n):
             y = y * x
-    return x
+    return y
 
 # now calculate the 8-th power of 2 and print it
 
 print("a)")
 
-# [CODE]
+p = power(2,8)
+print(p)
 
 print("")
 
@@ -48,12 +49,20 @@ print("")
 def fac(n):
     f = 1
 
-    #[CODE]
+    for i in range(1,n+1):
+        f = f * i
 
     return f
+    
+def fac2(n):
+    if n>1:
+        return fac2(n-1)*n
+    else:
+        return 1
 
 print("b)")
 print("fac(5) = {}".format(fac(5)))
+print("fac2(5) = {}".format(fac2(5)))
 print("")
 
 ###############################################################################

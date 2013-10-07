@@ -19,11 +19,13 @@
 
 
 ###############################################################################
-# a) Define your own list of at least 4 integers, print it.
+# a) Assign your own list of at least 4 integers to a variable `container`, 
+#    print it.
 
 print("a)")
 
-#[CODE]
+container = [1,3,2,5,4,7,6]
+print(container)
 
 print("")
 
@@ -34,7 +36,7 @@ print("")
 print("b)")
 print("Length of the variable `container`:")
 
-#[CODE]
+print(len(container))
 
 print("")
 
@@ -45,7 +47,8 @@ print("")
 print("c)")
 print("The list after sorting:")
 
-#[CODE]
+container.sort()
+print(container)
 
 print("")
 
@@ -55,12 +58,12 @@ print("")
 #    end? Assign your guess to the variable `guess`.
 
 lst = ["blood", "sugar", "sex", "magick"]
-lst.sort()
-lst.reverse()
-lst.insert(2, "smurfs")
-lst.pop(1)
+lst.sort()  # blood magick sex sugar
+lst.reverse()  # sugar sex magick blood
+lst.insert(2, "smurfs")  # sugar sex smurfs magick blood
+lst.pop(1) # sugar smurfs magick blood
 
-guess = []  # [CODE]
+guess = ["sugar", "smurfs", "magick", "blood"]  # [CODE]
 
 
 # don't worry about the stuff below right now, it just checks your result
@@ -71,5 +74,5 @@ if len(guess) > 0:
         "FAIL: Your list is too {} to be correct".format(
             "short" if len(guess) < len(lst) else "long")
     for g, i in zip(lst, guess):
-        assert g == i, "FAIL: First incorrect item of your list: {}".format(g)
+        assert g == i, "FAIL: First incorrect item of your list: {}".format(i)
     print("CORRECT: Your guess is correct!")

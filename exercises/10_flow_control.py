@@ -20,9 +20,9 @@
 
 print("a)")
 
-maxM = 1  #[CODE]
+maxM = 16
 for m in range(maxM):
-    n = 2  #[CODE]
+    n = 2*m
     print(n)
 
 print("")
@@ -39,7 +39,8 @@ myStrings = ["This", "is", "not", "the", "algorithm"]
 
 print("b)")
 
-#[CODE]
+for string in myStrings:
+    print(string.upper())
 
 print("")
 
@@ -58,7 +59,8 @@ print("")
 print("c)")
 
 for n in range(32):
-    pass #[CODE]
+    if n % 2 == 0:
+        print(n)
 
 print("")
 
@@ -77,7 +79,9 @@ print("")
 
 print("d)")
 
-#[CODE]
+for n in range(32):
+    if n % 2 == 0 and n % 3 != 0:
+        print(n)
 
 print("")
 
