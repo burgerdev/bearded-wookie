@@ -19,7 +19,8 @@
 
 
 ###############################################################################
-# a) Define your own list of at least 4 integers, print it.
+# a) Assign your own list of at least 4 integers to a variable `container,
+#    print it.
 
 print("a)")
 

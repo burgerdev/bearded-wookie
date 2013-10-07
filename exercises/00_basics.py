@@ -50,6 +50,8 @@ print("")
 #         character. To include the last character in your selection, you might
 #         need to use `len(s)`.
 
+email = "test@example.de"
+
 print("b)")
 
 #[CODE]

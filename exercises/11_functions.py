@@ -23,7 +23,7 @@ def power(x, n):
     y = 1
     for i in range(n):
             y = y * x
-    return x
+    return y
 
 # now calculate the 8-th power of 2 and print it
 
