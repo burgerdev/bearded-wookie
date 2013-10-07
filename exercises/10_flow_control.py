@@ -58,7 +58,7 @@ print("")
 print("c)")
 
 for n in range(32):
-    #[CODE]
+    pass #[CODE]
 
 print("")
 

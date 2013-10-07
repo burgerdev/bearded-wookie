@@ -63,7 +63,7 @@ lst = ["Apples", "Oranges", "Eggplants"]
 
 joined = ""  # [CODE]
 
-print("b)")
+print("c)")
 print("Joined list: {}".format(joined))
 print("")
 

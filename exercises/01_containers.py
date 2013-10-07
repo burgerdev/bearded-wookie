@@ -58,7 +58,7 @@ lst = ["blood", "sugar", "sex", "magick"]
 lst.sort()
 lst.reverse()
 lst.insert(2, "smurfs")
-lst.remove(1)
+lst.pop(1)
 
 guess = []  # [CODE]
 

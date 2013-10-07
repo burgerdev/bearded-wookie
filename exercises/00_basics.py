@@ -58,13 +58,15 @@ print("")
 
 
 ###############################################################################
-# Tuples
-# ======
+# c) Tuples
+# =========
 #
 # We try the same indexing that we did for strings on tuples.
 
 
 myTuple = (4, 15, "Hello", 3.0, ("tuple in a tuple", 17), "foo")
+
+print("c)")
 
 print("The third element of tuple `myTuple` is:")
 #[CODE]
