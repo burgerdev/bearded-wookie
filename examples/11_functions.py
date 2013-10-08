@@ -52,4 +52,64 @@ def calc(a, b):
     c = a + b
     return c
 
+result = calc(5, 17)
+print(result)
+
+
+print("")
+print("Scope")
+
+# You have to be careful with variables that are declared inside of functions. 
+# The visibility of the variable is called its 'scope'. If you assign to a 
+# variable inside a function for the first time, it is only visible within the 
+# function.
+
+def fun():
+    a = 2
+    print(a)
+
+# The following results in an error (NameError: name 'a' is not defined). 
+# >>> print(a) 
+
+# If the variable name was also used outside of the function, its contents are 
+# unchanged by assignments inside a function.
+
+print("")
+
+a = 1
+
+def myPrint():
+    a = 2
+    print(a)
+
+print(a)  # this prints 1
+myPrint()  # this prints 2
+print(a)  # this still prints 1, the original a is left unchanged by the function
+
+# Scope is unidirectional, you can use variables that are defined outside of a
+# function in the function itself. Note however, that this is in most situations
+# considered bad style. Try to use function arguments for that.
+
+a = 1
+
+def myPrint():
+    print(a)
+
+print(a)
+myPrint()
+
+# Be careful when using mutable types, they can be changed inside of functions!
+
+print("")
+print("Mutable Types")
+
+lst = [0,1,2]
+
+def screwList(lst):
+    lst[0] = "HAHA!"
+    lst.pop(1)
+
+print(lst)
+screwList(lst)
+print(lst)
 
