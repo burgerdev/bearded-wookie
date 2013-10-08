@@ -68,9 +68,18 @@ guess = []  # [CODE]
 print("d)")
 
 if len(guess) > 0:
-    assert len(guess) == len(lst), \
-        "FAIL: Your list is too {} to be correct".format(
-            "short" if len(guess) < len(lst) else "long")
-    for g, i in zip(lst, guess):
-        assert g == i, "FAIL: First incorrect item of your list: {}".format(g)
-    print("CORRECT: Your guess is correct!")
+    failed = False
+    if len(guess) != len(lst):
+        print("FAIL: Your list is too {} to be correct".format(
+            "short" if len(guess) < len(lst) else "long"))
+        failed = True
+    if not failed:
+        for g, i in zip(lst, guess):
+            if g != i:
+                print("FAIL: First incorrect item of your list: {}".format(i))
+                failed = True
+                break
+    if not failed:
+        print("CORRECT: Your guess is correct!")
+else:
+    print("Not done yet.")
