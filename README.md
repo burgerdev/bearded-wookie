@@ -14,7 +14,7 @@ marked as such.
 The instructional code found in the [examples](examples) and [exercises](exercises) is dual licensed (you can choose which license you want to adhere to):
 
   * [CC-BY-NC-SA-3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/), like the [presentation](doc/presentation)
-  * [MIT](LICENSE.md) 
+  * [MIT](LICENSE) 
 
 Please note that the presentation contains images that are not licensed by me, but by their respective owners. There's an image source reference at the end of the presentation.
 
